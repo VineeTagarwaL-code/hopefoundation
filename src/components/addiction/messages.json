@@ -1,0 +1,65 @@
+[
+    {
+       "image":"/assets/alcohol.jpg",
+        "title":"ALCOHOLISM",
+        "content":"Alcohol addiction or alcoholism is often seen as a 'bad habit,' but it's a serious mental health condition. Psychological, genetic, & environmental factors play key roles in its development.",
+        "button":"Know more",
+        "url":"/alcoholism"
+    },
+    {
+        "image":"/assets/Drug-Addiction.png",
+        "title":"DRUG ADDICTION",
+        "content":"Drug addiction or substance abuse is a state when the patient or the user loses the ability to control the intake of a substance or becomes dependent on the drug for regular functioning",
+        "button":"Know more",
+        "url":"/drugaddiction"
+   }, {
+      "image":"/assets/Depression.jpg",
+        "title":"DEPRESSION",
+        "content":"Depression is the most common mental disorder. As per WHO reports, it is the leading cause of disability worldwide and is a major contributor to the overall global burden of disease. ",
+        "button":"Know more",
+        "url":"/depression"
+    },
+    {
+        "image":"/assets/Schizophrenia.jpg",
+        "title":"SCHIZOPHRENIA",
+        "content":"Schizophrenia is a chronic mental illness that affects nearly 1% of the world's population. It often causes episodes of distorted reality, leading to delusions and hallucinations.",
+        "button":"Know more",
+        "url":"/schizophrenia"
+    },
+
+    {
+        "image":"/assets/ocd.jpg",
+        "title":"OCD",
+        "content":"OCD is a mental illness characterized by repetitive intrusive thoughts, leading patients to perform the same actions repeatedly. These actions aim to reduce the thoughts or the anxiety they cause.",
+        "button":"Know more",
+        "url":"/ocd"
+    },
+    {
+        "image":"/assets/PersonalityDisorders.jpg",
+        "title":"PERSONALITY DISORDER",
+        "content":"Personality includes behavioral patterns, reactions, thoughts, feelings, and how we understand and deal with different situations. A healthy personality enables effective functioning in daily life.",
+        "button":"Know more",
+        "url":"/personalitydisorder"
+    },
+    {
+        "image":"/assets/GamblingAddiction.jpg",
+        "title":"GAMBLING ADDICTION",
+        "content":"Among all behavioral addictions—and addictions in general—gambling has the potential to cause the most significant financial damage in the shortest time.",
+        "button":"Know more",
+        "url":"/gamblingdisorder"
+    },
+    {
+        "image":"/assets/dementia.png",
+        "title":"DEMENTIA",
+        "content":"Dementia is a set of symptoms signifying cognitive decline, including memory loss, language impairment, reduced judgment, & behavioral changes. It is often chronic & typically progressive.",
+        "button":"Know more",
+        "url":"/dmentia"
+    },
+    {
+        "image":"/assets/Gaming-Addiction.png",
+        "title":"GAMING ADDICTION",
+        "content":"Gaming addiction, also called gaming disorder, video game , or computer game addiction, is a relatively new form of addiction. There's ongoing debate about classifying it as a distinct condition.",
+        "button":"Know more",
+        "url":"/gamingaddiction"
+    }
+]

@@ -1,0 +1,26 @@
+import FamilyCoun from "@/components/FamilyCounselling/family";
+import Medical from "@/components/Medical/medical";
+import { Pyschological } from "@/components/PhyschologicalConditioning/pyschological";
+import { Introduction } from "@/components/introduction";
+import { Main } from "@/components/main";
+import { Navbar } from "@/components/navbar";
+import { SpiritualHealing } from "@/components/spiritualHealing";
+import { TransitionalHousing } from "@/components/transitionalHousing";
+import { Video } from "lucide-react";
+
+
+export default function Home() {
+  return (
+    <main className="min-h-screen relative scroll-smooth select-none">
+      <Navbar/>
+      <Introduction/>
+      <Main/>
+      <Video/>
+      <Medical/>
+      <Pyschological/>
+      <SpiritualHealing/>   
+      <FamilyCoun/>
+      <TransitionalHousing/>
+    </main>
+  );
+}

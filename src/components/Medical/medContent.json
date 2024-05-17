@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "tagline": "Early Bio - Investigation & Diagnosis:",
+    "description": "The tests carried out as part of the early medical check include a Complete Haemogram, Lipid Profile, Liver Function Test, Renal Function Test, Random Blood Sugar, and ECG."
+  },
+  {
+    "id": 2,
+    "tagline": "In-House Consultation:",
+    "description": "The pre-treatment phase involves consultations with visiting physicians. They diagnose any pre-existing conditions like liver/kidney damage, hypertension, heart disease, or diabetes to create a tailored treatment plan. This process includes medical and nutritional guidance, with regular weekly check-ups by the physician to monitor progress and adjust treatment as needed."
+  },
+  {
+    "id": 3,
+    "tagline": "Special Needs Consultation:",
+    "description": "There are instances where the severity of the medical condition requires the patient to undergo specialized treatment. We have a tie-up with Specialist Hospital, a premier multi-specialty hospital in the locality, offering OPD, day-care, and in-patient services."
+  },
+  {
+    "id": 4,
+    "tagline": "Well-Stocked Medicine Inventory:",
+    "description": "We follow a strict and disciplined method of storing and dispensing medicines for our patients."
+  },
+  {
+    "id": 5,
+    "tagline": "Psychiatric Evaluation:",
+    "description": "One cannot ignore the mental health of a patient recovering from addiction/alcoholism. Sometimes a dual diagnosis requires a more supportive environment. A psychiatric evaluation and medication help in this process."
+  }
+]
