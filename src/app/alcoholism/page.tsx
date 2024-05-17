@@ -15,10 +15,10 @@ const Page = () => {
     <>
       <Navbar />
       <div className="h-full flex justify-center  mt-5 ">
-        <div className="w-[70%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
-          <p className="text-3xl md:text-4xl text-[#d47f22] mt-3">
+        <div className="md:w-[80%] w-[90%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
+        <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-[#d47f22] w-full text-left ">
             What is Alcohol Addiction?
-          </p>
+          </h1>
           <p className="text-lg text-gray-500 mt-5">
             Alcohol addiction or alcoholism is often considered to be a ‘bad
             habit’ but it is a serious mental health condition. Psychological,
@@ -65,17 +65,17 @@ const Page = () => {
             your challenges and achieve full and sustainable recovery.
           </p>
           <div>
-            <p className="text-3xl text-blue-500 mt-5">
+            <p className="md:text-2xl text-xl font-semibold text-blue-500 mt-5">
               THERE ARE THREE CRUCIAL PHASES OF ALCOHOL ADDICTION{" "}
             </p>
-            <p className="flex text-2xl mt-5 text-[#d47f22]">
+            <p className="flex text-xl md:text-2xl mt-5 text-[#d47f22]">
               {" "}
               <Hash /> The Early Phase{" "}
             </p>
             {earlyPhase.map((phases, index) => {
               return (
                 <div key={index}>
-                  <p className="text-xl font-bold mt-3 underline decoration-wavy">
+                  <p className="text-lg font-bold mt-3 ">
                     {phases.title}
                   </p>
                   <p className="text-lg mt-3 text-gray-500">{phases.point}</p>
@@ -84,14 +84,14 @@ const Page = () => {
             })}
           </div>
           <div>
-            <p className="flex text-2xl mt-5 text-[#d47f22]">
+          <p className="flex text-xl md:text-2xl mt-5 text-[#d47f22]">
               {" "}
               <Hash /> The Middle Phase
             </p>
             {middlePhase.map((phases, index) => {
               return (
                 <div key={index}>
-                  <p className="text-xl font-bold mt-3 underline decoration-wavy">
+                  <p className="text-lg font-bold mt-3 ">
                     {" "}
                     {phases.title}
                   </p>
@@ -101,7 +101,7 @@ const Page = () => {
             })}
           </div>
           <div>
-            <p className="flex text-2xl mt-5 text-[#d47f22]">
+          <p className="flex text-xl md:text-2xl mt-5 text-[#d47f22]">
               {" "}
               <Hash />
               The Chronic Phase
@@ -109,7 +109,7 @@ const Page = () => {
             {chronicPhase.map((phases, index) => {
               return (
                 <div key={index}>
-                  <p className="text-xl font-bold mt-3 underline decoration-wavy">
+                  <p className="text-lg font-bold mt-3 ">
                     {phases.title}
                   </p>
                   <p className="text-lg mt-3 text-gray-500">{phases.point}</p>
@@ -313,7 +313,7 @@ const chronicPhase = [
 const MythComponent = () => {
   return (
     <div>
-      <h1 className="text-3xl text-blue-500 mt-5">
+        <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
         Myths and facts about Alcoholism{" "}
       </h1>
       <p className="text-lg mt-5 text-gray-500">
@@ -404,7 +404,7 @@ const AccordionDemo = () => {
     <Accordion type="single" collapsible className="w-full p-5">
       {Myth.map((myth, index) => (
         <AccordionItem key={index} value={`myth-${index}`}>
-          <AccordionTrigger className="text-xl font-semibold mt-3 ">
+          <AccordionTrigger className="md:text-xl text-lg font-medium   mt-3 ">
             {myth.myths}
           </AccordionTrigger>
           <AccordionContent className="text-lg  text-gray-500">

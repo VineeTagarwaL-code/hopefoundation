@@ -13,9 +13,9 @@ const Page = () => {
     <>
       <Navbar />
       <div className="h-full flex justify-center  mt-5 ">
-        <div className="w-[70%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
+      <div className="md:w-[80%] w-[90%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
           <div>
-            <h1 className="text-3xl md:text-4xl text-[#d47f22] mt-3">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-[#d47f22] w-full text-left ">
               What is Dementia?
             </h1>
             <p className="text-lg text-gray-500 mt-5">
@@ -31,7 +31,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Symptoms of Dementia
             </h1>
             <p className="text-lg text-gray-500 mt-5">
@@ -62,7 +62,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               What causes dementia?
             </h1>
             <p className="text-lg mt-5 text-gray-500">
@@ -91,17 +91,18 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">Types of Dementia</h1>
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+Types of Dementia</h1>
             <p className="text-lg mt-5 text-gray-500">
               Now that we know what causes dementia, let us talk about dementia
               and its types. As mentioned above, dementia is basically a symptom
               particular to the disease, and types of dementia vary according to
               the disease-causing it.
             </p>
-            <p className="text-xl text-gray-500 mt-5 font-semibold underline w-full ">
+            <p className="text-lg text-gray-500 mt-5 font-semibold underline w-full ">
               The dementia types include:
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Alzheimer’s disease:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -109,7 +110,7 @@ const Page = () => {
               aggregation of proteins called plaques and tangles causing the
               brain cells to waste away.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Lewy body dementia:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -119,7 +120,7 @@ const Page = () => {
               scans along with several prescriptions of medications and therapy
               recommendations.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Vascular dementia:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -127,7 +128,7 @@ const Page = () => {
               vasculature that supplies blood to the brain. This type of
               Dementia can occur due to a brain stroke as well.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Frontotemporal dementia:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -141,7 +142,8 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">Stages of Dementia </h1>
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+Stages of Dementia </h1>
             <p className="text-lg mt-3 text-gray-500">
               Dementia is a progressive disease, meaning it has the potential to
               get worse over time. Patients with dementia problems tend to show
@@ -149,10 +151,10 @@ const Page = () => {
               the stages in which Dementia patients experience cognitive
               decline:
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Mild Cognitive Impairment:
             </p>
-            <p>
+            <p className="text-lg text-gray-500  mt-3 ">
               {" "}
               A very common stage among the elderly population, mild cognitive
               impairment is a disorder where they tend to experience
@@ -160,7 +162,7 @@ const Page = () => {
               remembering things at all. Most patients with MCI do not progress
               towards dementia or any other mental impairment at all.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Mild Dementia Stage
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -184,7 +186,7 @@ const Page = () => {
                 decision making
               </li>
             </ul>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Mild Cognitive Impairment:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -206,7 +208,7 @@ const Page = () => {
               <li>Inability to help themselves dress or take a bath</li>
               <li>Severe memory loss</li>
             </ul>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Severe Dementia Stage:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -236,7 +238,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               How Is Dementia Diagnosed?
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -265,7 +267,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               How Is Dementia Treated?
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -303,7 +305,7 @@ const Page = () => {
               oriented treatment approaches and non-drug therapies, here we
               explore the efficacy of both in managing Dementia.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Medications:{" "}
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -329,7 +331,7 @@ const Page = () => {
               prescribed by a licensed medical professional.{" "}
             </p>
 
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Non-Drug Therapy:{" "}
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -341,7 +343,7 @@ const Page = () => {
               understanding how to do their daily tasks like bathing, dressing
               or eating properly.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Mixed Approach:{" "}
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -351,7 +353,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               How to prevent dementia?{" "}
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -359,22 +361,22 @@ const Page = () => {
               help the patient reduce symptoms of dementia and alleviate some of
               the manageable complications of Dementia. Some of these include:
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Changing the environment around the patient:
             </p>
             <p className="text-lg mt-3 text-gray-500">
               A cluttered environment that is full of noise and overstimulation
               may make the patient lose focus.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Modifying common daily tasks:
             </p>
             <p className="text-lg mt-3 text-gray-500">
               A therapist or a healthcare provider can also be of help to assist
               the patient in breaking down everyday tasks like showering and
-              dressing and eating.s.
+              dressing and eating.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Occupational therapy:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -385,21 +387,20 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1>Myths and Facts of Dementia</h1>
-            <p className="text-lg mt-3 text-gray-500">
+          </div>
+          <div>
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+              Myths and Facts of Dementia
+            </h1>
+            <p className="text-lg mt-2 text-gray-500">
               There are several misconceptions and doubts about dementia in the
               elderly. Let us bust some myths and discuss some important facts
               about the disease.{" "}
             </p>
-          </div>
-          <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
-              Myths and Facts of Dementia
-            </h1>
             <AccordionDemo />
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Risks Factors for Dementia
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -407,7 +408,7 @@ const Page = () => {
               the chances of the patient to actually develop the disease later
               in life. Here are the risk factors that you should be aware of.{" "}
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Unhealthy diet and lack of exercise:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -417,14 +418,14 @@ const Page = () => {
               it has been seen that the people who do not follow a balanced diet
               run a higher risk of developing the disease later in life.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Heavy alcohol use:
             </p>
             <p className="text-lg mt-3 text-gray-500">
               Drinking large amounts of alcohol or binge drinking has been
               correlated with a higher risk of dementia.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Cardiovascular risk factors:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -432,7 +433,7 @@ const Page = () => {
               cholesterol, atherosclerosis (build-up of fats in the artery
               walls), and obesity have been linked with high dementia risk.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Depression and anxiety issues:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -440,19 +441,19 @@ const Page = () => {
               and memory loss, although the relationship between dementia and
               depression is still not well-understood.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">Diabetes:</p>
+            <p className="text-lg text-gray-500 font-bold mt-3 ">Diabetes:</p>
             <p className="text-lg mt-3 text-gray-500">
               Poorly controlled diabetes may increase the risk of developing
               dementia later in life.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Long term smoking habits:
             </p>
             <p className="text-lg mt-3 text-gray-500">
               Smoking over a long period of time might increase the risk of
               developing dementia and other vascular diseases later in life.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Sleep apnea:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -460,7 +461,7 @@ const Page = () => {
               episodes where they stop breathing while asleep may have
               reversible memory loss in old age.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Vitamin and nutritional deficiencies:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -469,14 +470,14 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Complications associated with Dementia
             </h1>
             <p className="text-lg mt-3 text-gray-500">
               Dementia can lead to several physical and mental health
               complications in the elderly. Such complications include:
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Poor nutrition:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -485,14 +486,14 @@ const Page = () => {
               food items. This, in turn, affects their nutrient intake, leading
               to poor nutrition-related problems.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">Pneumonia:</p>
+            <p className="text-lg text-gray-500 font-bold mt-3 ">Pneumonia:</p>
             <p className="text-lg mt-3 text-gray-500">
               The difficulty in swallowing food leads to diseases and
               complications further. It increases the risk of choking or
               aspirating food into the lungs, which can block breathing and
               eventually cause pneumonia.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Inability to perform self-care tasks:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -500,7 +501,7 @@ const Page = () => {
               bath, dressing, brushing hair or teeth, using the toilet
               independently, and taking medications accurately.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Personal safety challenges:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -509,14 +510,14 @@ const Page = () => {
               dementia, the people affected cannot take care of these situations
               alone, leading to personal safety challenges
             </p>{" "}
-            <p className="text-xl text-gray-500 font-bold mt-3 ">Death:</p>
+            <p className="text-lg text-gray-500 font-bold mt-3 ">Death:</p>
             <p className="text-lg mt-3 text-gray-500">
               The later stages of dementia that occur in very old people can
               lead to coma or death, mostly due to the development of infection.
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Living With Dementia
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -534,7 +535,8 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">Dementia and Ageing</h1>
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+Dementia and Ageing</h1>
             <p className="text-lg mt-3 text-gray-500">
               The human body goes through several changes at old age. It is
               absolutely normal for the elderly to forget a few things when they
@@ -569,7 +571,8 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">Dementia Prognosis</h1>
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+Dementia Prognosis</h1>
             <p className="text-lg mt-3 text-gray-500">
               Patients suffering from dementia often require the support of a
               caregiver throughout life to go about their daily routine.
@@ -583,7 +586,8 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+
               Getting Help For Dementia
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -598,13 +602,13 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Dementia FAQ: All you need to know
             </h1>
             <AccordionFaq />
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               What can you do once you develop dementia?
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -680,7 +684,7 @@ const AccordionDemo = () => {
     <Accordion type="single" collapsible className="w-full p-5">
       {Myth.map((myth, index) => (
         <AccordionItem key={index} value={`myth-${index}`}>
-          <AccordionTrigger className="text-xl text-gray-500 font-semibold mt-3 ">
+          <AccordionTrigger className="text-lg text-gray-500 font-semibold mt-3 ">
             {myth.myths}
           </AccordionTrigger>
           <AccordionContent className="text-lg  text-gray-500">

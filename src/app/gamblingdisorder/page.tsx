@@ -13,9 +13,9 @@ const Page = () => {
     <>
       <Navbar />
       <div className="h-full flex justify-center  mt-5 ">
-        <div className="w-[70%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
+        <div className="md:w-[80%] w-[90%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
           <div>
-            <h1 className="text-3xl md:text-4xl text-[#d47f22] mt-3">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-[#d47f22] w-full text-left ">
               Problem Gambling Explained
             </h1>
             <p className="text-lg text-gray-500 mt-5">
@@ -69,7 +69,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl  text-blue-500 w-full text-left mt-5">
               Other Names for Gambling Addiction
             </h1>
             <p className="text-lg text-gray-500 mt-5">
@@ -99,13 +99,15 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Myths and facts about Problem Gambling
             </h1>
             <AccordionDemo />
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">Why People Gamble</h1>
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+              Why People Gamble
+            </h1>
             <p className="text-lg text-gray-500 mt-5">
               Although this is not the case every society, here in the UK
               gambling has traditionally been considered a comparatively harmful
@@ -175,7 +177,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Types of Problem Gambling
             </h1>
             <p className="text-lg text-gray-500 mt-5">
@@ -208,7 +210,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Stages of a Gambling Addiction
             </h1>
             <p className="text-lg text-gray-500 mt-5">
@@ -216,7 +218,7 @@ const Page = () => {
               is unique, experts often divide the evolution of a gambling
               addiction into a few key stages.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Winning Early on:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -231,7 +233,7 @@ const Page = () => {
               activities, and may begin gambling ever greater amounts (possibly
               driven by such flawed thinking as the famous “gambler’s fallacy”).
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">Losing: </p>
+            <p className="text-lg text-gray-500 font-bold mt-3 ">Losing: </p>
             <p className="text-lg mt-3 text-gray-500">
               Losing After a few heavy losses the initial exhilaration will
               depart, and the gambler may become increasingly focused on
@@ -245,7 +247,7 @@ const Page = () => {
               relationships and work or academia may begin to suffer, along with
               their finances.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Desperation:
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -267,7 +269,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Causes of Problem Gambling
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -299,7 +301,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               How The Brain Gets Addicted to Gambling
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -318,7 +320,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Signs & Symptoms of Problem Gambling
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -332,7 +334,7 @@ const Page = () => {
               Therefore in most serious cases a visible deterioration will be
               identifiable.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Emotional symptoms
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -348,7 +350,7 @@ const Page = () => {
               can produce symptoms resembling those of bipolar disorder or
               mania, with all the associated risks of self-harm and/or suicide.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Physical symptoms
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -370,7 +372,7 @@ const Page = () => {
               that gambling often co-occurs with other addictions, especially
               alcoholism, which may present their own physical symptoms.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Behavioural Signs
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -396,7 +398,7 @@ const Page = () => {
               feeling animosity towards the world at large because of what they
               see as their very bad luck.
             </p>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Financial signs
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -414,7 +416,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Signs of problem gambling in youth
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -432,7 +434,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Short-Term and Long-Term Impacts of Gambling Addiction
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -490,7 +492,8 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1
+              className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Co-occuring Disorders in Gambling Addiction
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -524,7 +527,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Problem Gambling and Substance Abuse
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -567,7 +570,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Treatment for Gambling Addiction
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -592,7 +595,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Self-help for problem gambling
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -618,7 +621,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Dealing with gambling problems
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -648,7 +651,9 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">Coping with relapse</h1>
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+              Coping with relapse
+            </h1>
             <p className="text-lg mt-3 text-gray-500">
               As with any addiction, the temptation to relapse is likely to be a
               significant problem for a long time after your last episode of
@@ -670,7 +675,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Prevention for Problem Gambling
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -700,7 +705,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Finding Alternatives to Gambling
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -736,8 +741,8 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
-              Are you a Problem Gambler? 10 Ques ions to Answer
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+            &quot;Are You a Problem Gambler? 10 Questions to Answer&quot; 
             </h1>
             <p className="text-lg mt-3 text-gray-500">
               Some self-help groups and charities provide a questionnaire to
@@ -768,10 +773,12 @@ const Page = () => {
             </ul>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">Related FAQ’s</h1>
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+              Related FAQ’s
+            </h1>
             <AccordionFaq />
           </div>
-          <GoBack/>
+          <GoBack />
         </div>
       </div>
     </>
@@ -805,7 +812,7 @@ const AccordionDemo = () => {
     <Accordion type="single" collapsible className="w-full p-5">
       {Myths.map((myth, index) => (
         <AccordionItem key={index} value={`faqs-${index}`}>
-          <AccordionTrigger className="text-xl text-gray-500 font-semibold w-full mt-3 ">
+          <AccordionTrigger className="text-lg text-gray-500 font-semibold w-full mt-3 ">
             {myth.myth}
           </AccordionTrigger>
           <AccordionContent className="text-lg  text-gray-500">

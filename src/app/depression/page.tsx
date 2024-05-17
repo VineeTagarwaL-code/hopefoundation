@@ -11,8 +11,8 @@ const Page = () => {
     <>
       <Navbar />
       <div className="h-full flex justify-center w-full  mt-5 ">
-        <div className="w-[70%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
-          <h1 className="text-3xl md:text-4xl text-[#d47f22] mt-3">
+        <div className="md:w-[80%] w-[90%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-[#d47f22] w-full text-left ">
             Depression: An Overview
           </h1>
           <p className="text-lg text-gray-500 mt-5">
@@ -24,10 +24,10 @@ const Page = () => {
             to treat depression if it persists for a long time, as it becomes a
             root cause for many other medical conditions if not treated on time.
           </p>
-          <p className="text-xl text-gray-500 mt-5 font-semibold underline w-full ">
+          <p className="text-lg text-gray-500 mt-5 font-semibold underline w-full ">
             Conditions that can get worse due to depression include:
           </p>
-          <p className="text-xl  text-gray-500 mt-3 ">
+          <p className="text-lg  text-gray-500 mt-3 ">
             i) Arthritis
             <br />
             <br />
@@ -61,7 +61,7 @@ const Page = () => {
             suffer from anxiety symptoms, loss of appetite, disturbed sleep, low
             self-esteem, poor concentration.
           </p>
-          <p className="text-xl text-gray-500 mt-5 font-semibold underline w-full ">
+          <p className="text-lg text-gray-500 mt-5 font-semibold underline w-full ">
             There are different types of depression.{" "}
           </p>
           {types.map((drugs, index) => {
@@ -76,9 +76,9 @@ const Page = () => {
             );
           })}
           <div>
-            <p className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Symptoms of Depression
-            </p>
+            </h1>
 
             <p className="text-lg text-gray-500 mt-5">
               It is very common and obvious for a person to go through periods
@@ -86,7 +86,7 @@ const Page = () => {
               few days or weeks. Profound sadness and depression that lasts more
               than two weeks affect their ability to function normally.{" "}
             </p>
-            <p className="text-xl text-gray-500 mt-5 font-semibold underline w-full ">
+            <p className="text-lg text-gray-500 mt-5 font-semibold underline w-full ">
               Some of the common signs and symptoms of depression are:
             </p>
             <p className="text-lg text-gray-500 mt-5">
@@ -149,7 +149,7 @@ const Page = () => {
               and physical well-being, behaviour, cognitive abilities, or sleep
               patterns
             </p>
-            <p className="text-xl text-gray-500 mt-5 font-semibold">
+            <p className="text-lg text-gray-500 mt-5 font-semibold">
               Several factors can increase the chances of depression. Here are
               some of the main causes of depression:-
             </p>
@@ -215,8 +215,10 @@ const Page = () => {
               </p>
             </div>
             <div>
-              <p className="text-3xl text-blue-500 mt-5">Diagnosis</p>
-              <p className="text-xl text-[#d47f22] mt-3">
+              <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+                Diagnosis
+              </h1>
+              <p className="text-2xl text-[#d47f22] my-4">
                 How to diagnose depression?
               </p>
               <p className="text-lg text-gray-500 ">
@@ -229,7 +231,7 @@ const Page = () => {
                 problems, physical examination and blood tests may also be
                 performed.
               </p>
-              <p className="text-xl text-gray-500 mt-5 font-semibold underline w-full ">
+              <p className="text-lg text-gray-500 mt-5 font-semibold underline w-full ">
                 {" "}
                 Your therapist or doctor will determine the clinical condition
                 of depression based on –{" "}
@@ -238,8 +240,8 @@ const Page = () => {
                 <span className="text-lg font-bold mt-5 text-black pr-3">
                   Physical exam –
                 </span>{" "}
-                S/he will ask questions about your health as depression is often
-                linked to an underlying physical health problem.
+                She/he will ask questions about your health as depression is
+                often linked to an underlying physical health problem.
               </p>
 
               <p className="text-lg mt-3 text-gray-500">
@@ -272,9 +274,9 @@ const Page = () => {
               </p>
             </div>
             <div>
-              <p className="text-3xl text-blue-500 mt-5">
+              <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
                 Depression Treatment
-              </p>
+              </h1>
               <p className="text-lg mt-3 text-gray-500">
                 Mild to severe, all types of depressions are treatable. If
                 depression is keeping you or your loved ones away from living a
@@ -298,11 +300,13 @@ const Page = () => {
               </p>
             </div>
             <div>
-              <p className="text-3xl text-blue-500 mt-5">Talk Therapies</p>
+              <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+                Talk Therapies
+              </h1>
               {therapies.map((therapy, index) => {
                 return (
                   <div key={index}>
-                    <p className="text-xl font-bold mt-3 ">{therapy.title}</p>
+                    <p className="text-lg font-bold mt-5 ">{therapy.title}</p>
                     <p className="text-lg mt-3 text-gray-500">
                       {therapy.point}
                     </p>
@@ -329,8 +333,8 @@ const Page = () => {
                 {severeDepression.map((severe, index) => {
                   return (
                     <div key={index}>
-                      <p className="text-xl font-bold mt-3 ">{severe.title}</p>
-                      <p className="text-lg mt-3 text-gray-500">
+                      <p className="text-lg font-bold mt-3 ">{severe.title}</p>
+                      <p className="text-lg mt-1 text-gray-500">
                         {severe.point}
                       </p>
                     </div>
@@ -452,9 +456,9 @@ const Page = () => {
             </div>
           </div>
           <div>
-            <p className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Rehabilitation for Depression
-            </p>
+            </h1>
             <p className="text-lg text-gray-500 mt-3">
               An effective depression treatment works on patients who are
               diagnosed with clinical depression or manic depressive psychosis.
@@ -497,16 +501,16 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Depression FAQ: All you need to know
             </h1>
             <AccordionDemo />
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               What is Postpartum Depression (PPD)?
             </h1>
-            <p  className="text-lg mt-3 text-gray-500">
+            <p className="text-lg mt-3 text-gray-500">
               Postpartum depression occurs in women soon after giving birth. It
               is a very common condition found in women, which include symptoms
               like sadness and hopelessness after their pregnancy term. If the
@@ -516,7 +520,7 @@ const Page = () => {
             <p className="text-2xl  text-[#d47f22] mt-3">
               What about depression later in life?
             </p>
-            <p  className="text-lg mt-3 text-gray-500">
+            <p className="text-lg mt-3 text-gray-500">
               Late-life depression, often known as LLD, is a type of depression
               that usually occurs after the age of 60 years. It is also known as
               Late-onset depression (LOD). As this is common in the elderly,
@@ -524,7 +528,9 @@ const Page = () => {
               fibrillation, diabetes, cancer, dementia, and chronic pain to
               further increase the risk of depression.
             </p>
-            <p className="text-2xl  text-[#d47f22] mt-3">Why is depression more prevalent in women than in men?</p>
+            <p className="text-2xl  text-[#d47f22] mt-3">
+              Why is depression more prevalent in women than in men?
+            </p>
             <p className="text-lg mt-3 text-gray-500">
               The prevalence of major depression is higher in women than in men.
               Several risk factors are said to account for gender differences in
@@ -534,7 +540,7 @@ const Page = () => {
               systems which ultimately triggers mood disorders.
             </p>
           </div>
-          <GoBack/>
+          <GoBack />
         </div>
       </div>
     </>
@@ -676,7 +682,7 @@ const AccordionDemo = () => {
     <Accordion type="single" collapsible className="w-full p-5">
       {Faq.map((faqs, index) => (
         <AccordionItem key={index} value={`myth-${index}`}>
-          <AccordionTrigger className="text-xl font-semibold mt-3 ">
+          <AccordionTrigger className="text-lg font-semibold mt-3 ">
             {faqs.Question}
           </AccordionTrigger>
           <AccordionContent className="text-lg  text-gray-500">

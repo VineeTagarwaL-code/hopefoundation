@@ -13,9 +13,9 @@ const Page = () => {
     <>
       <Navbar />
       <div className="h-full flex justify-center  mt-5 ">
-        <div className="w-[70%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
-          <div>
-            <h1 className="text-3xl md:text-4xl text-[#d47f22] mt-3">
+      <div className="md:w-[80%] w-[90%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
+        <div>
+        <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-[#d47f22] w-full text-left ">
               What is Obsessive-Compulsive Disorder?
             </h1>
             <p className="text-lg text-gray-500 mt-5">
@@ -52,7 +52,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               What are obsessions?
             </h1>
             <p className="text-lg text-gray-500 mt-5">
@@ -64,7 +64,7 @@ const Page = () => {
               Obsessions cause anxiety in patients, thereby forcing them to
               perform certain activities as a measure of relief.
             </p>
-            <p className="text-xl text-gray-500 mt-3 font-semibold underline w-full ">
+            <p className="text-lg text-gray-500 mt-3 font-semibold underline w-full ">
               There are several kinds of obsessions, some of the common ones
               are:
             </p>
@@ -111,7 +111,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               What are compulsions?
             </h1>
             <p className="text-lg text-gray-500 mt-5">
@@ -119,13 +119,13 @@ const Page = () => {
               from OCD feels inclined to do in a certain way to justify the
               obsession.
             </p>
-            <p className="text-xl text-gray-500 mt-3 font-semibold underline w-full ">
+            <p className="text-lg text-gray-500 mt-3 font-semibold underline w-full ">
               The most common forms of compulsive actions are:
             </p>
             {compulsions.map((compulsion, index) => {
               return (
                 <div key={index}>
-                  <p className="text-xl font-bold mt-3  text-gray-500">
+                  <p className="text-lg font-bold mt-3  text-gray-500">
                     {compulsion.title}
                   </p>
                   <p className="text-lg mt-2 text-gray-500">
@@ -136,11 +136,11 @@ const Page = () => {
             })}
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">Types of OCD</h1>
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">Types of OCD</h1>
             <p className="text-lg text-gray-500 mt-5">
               The two major types of OCD are covert and overt kind.{" "}
             </p>
-            <p className="text-xl font-bold mt-3  text-gray-500">Overt OCD: </p>
+            <p className="text-lg font-bold mt-3  text-gray-500">Overt OCD: </p>
             <p className="text-lg  mt-3  text-gray-500">
               People suffering from overt OCD often act on their obsessive
               thoughts in forms that are physical and visible to others. Overt
@@ -152,7 +152,7 @@ const Page = () => {
               for them..
             </p>
 
-            <p className="text-xl font-bold mt-3  text-gray-500">Covert OCD:</p>
+            <p className="text-lg font-bold mt-3  text-gray-500">Covert OCD:</p>
             <p className="text-lg  text-gray-500">
               Covert compulsions also termed as cognitive compulsions are those
               that compel the patient to perform certain mental actions to
@@ -174,7 +174,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               OCD signs and symptoms
             </h1>
             <p className="text-lg mt-3  text-gray-500">
@@ -213,7 +213,7 @@ const Page = () => {
             </ul>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               How can OCD affect my life?
             </h1>
             <p className="text-lg mt-3  text-gray-500">
@@ -239,7 +239,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">What causes OCD?</h1>
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">What causes OCD?</h1>
             <p className="text-lg mt-3 text-gray-500">
               Researchers around the world have spent countless hours trying to
               understand the root cause of this situation and are yet to
@@ -277,7 +277,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">OCD Diagnosis:</h1>
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">OCD Diagnosis:</h1>
             <p className="text-lg mt-3 text-gray-500">
               An OCD diagnosis should only be made by a trained medical
               professional who is an OCD psychiatrist or therapist. This
@@ -288,7 +288,7 @@ const Page = () => {
               use to understand the condition and learn more, but
               self-diagnosing can do a lot more harm than good.
             </p>
-            <p className="text-xl text-gray-500 mt-5 font-semibold underline w-full ">
+            <p className="text-lg text-gray-500 mt-5 font-semibold underline w-full ">
               Pointers that help medical practitioners diagnose OCD are:
             </p>
             <ul className="list-disc text-lg text-gray-500 mt-3 ml-6">
@@ -312,7 +312,7 @@ const Page = () => {
             </ul>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               {" "}
               Living with OCD: How to help yourself
             </h1>
@@ -323,7 +323,7 @@ const Page = () => {
             {livingWithOCD.map((ocd, index) => {
               return (
                 <div key={index}>
-                  <p className="text-xl font-bold mt-3  text-gray-500">
+                  <p className="text-lg font-bold mt-3  text-gray-500">
                     {ocd.title}
                   </p>
                   <p className="text-lg mt-2 text-gray-500">{ocd.point}</p>

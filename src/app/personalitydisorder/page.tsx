@@ -12,9 +12,9 @@ const Page = () => {
     <>
       <Navbar />
       <div className="h-full flex justify-center  mt-5 ">
-        <div className="w-[70%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
+      <div className="md:w-[80%] w-[90%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
           <div>
-            <h1 className="text-3xl md:text-4xl text-[#d47f22] mt-3">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-[#d47f22] w-full text-left ">
               Personality Disorder
             </h1>
             <p className="text-lg text-gray-500 mt-5">
@@ -68,7 +68,7 @@ const Page = () => {
               desperate. Therefore, the treatment that should be relatively easy
               becomes extremely difficult to manage.
             </p>
-            <p className="text-xl text-gray-500 mt-5 font-semibold underline w-full ">
+            <p className="text-lg text-gray-500 mt-5 font-semibold underline w-full ">
               Teen borderline personality disorder signs and symptoms include –
             </p>
             <ul className="list-disc text-lg text-gray-500 mt-3 ml-6">
@@ -132,7 +132,8 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">Symptoms</h1>
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+Symptoms</h1>
             <p className="text-lg mt-3 text-gray-500">
               People with BPD tend to view things in extremes, either something
               is too good or too bad. They find it difficult to regulate
@@ -142,7 +143,7 @@ const Page = () => {
               better patient outcomes. The risk of self-harm or suicidal
               behavior is also reduced, the earlier the disease is detected.
             </p>
-            <p className="text-xl text-gray-500 mt-5 font-semibold underline w-full ">
+            <p className="text-lg text-gray-500 mt-5 font-semibold underline w-full ">
               Borderline Personality Disorder symptoms include:
             </p>
             <ul className="list-disc text-lg text-gray-500 mt-3 ml-6">
@@ -188,7 +189,7 @@ const Page = () => {
                 well – a condition called dissociation
               </li>
             </ul>
-            <p className="text-xl text-gray-500 mt-5 font-semibold underline w-full ">
+            <p className="text-lg text-gray-500 mt-5 font-semibold underline w-full ">
               People with BPD develop other mental health problems with time,
               such as:
             </p>
@@ -236,7 +237,8 @@ const Page = () => {
             </ul>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">Causes</h1>
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+Causes</h1>
             <p className="text-lg mt-3 text-gray-500">
               For starters, there is no singular cause for borderline
               personality disorder, it’s mostly caused due to a combination of
@@ -245,7 +247,7 @@ const Page = () => {
             {causes.map((cause, index) => {
               return (
                 <div key={index}>
-                  <p className="text-xl text-gray-500 font-bold mt-3 ">
+                  <p className="text-lg text-gray-500 font-bold mt-3 ">
                     {cause.title}
                   </p>
                   <p className="text-lg mt-3 text-gray-500">{cause.point}</p>
@@ -261,7 +263,7 @@ const Page = () => {
             {bpdDevelopment.map((development, index) => {
               return (
                 <div key={index}>
-                  <p className="text-xl font-bold mt-3 text-gray-500 ">
+                  <p className="text-lg font-bold mt-3 text-gray-500 ">
                     {development.title}
                   </p>
                   <p className="text-lg mt-3 text-gray-500">
@@ -272,7 +274,8 @@ const Page = () => {
             })}
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">Diagnosis</h1>
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+Diagnosis</h1>
             <p className="text-lg mt-3 text-gray-500">
               In the past, Borderline Personality Disorder diagnosis and
               treatment were not available as there was no proven or effective
@@ -316,7 +319,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Borderline Personality Disorder FAQ: All you need to know
             </h1>
             <AccordionDemo/>

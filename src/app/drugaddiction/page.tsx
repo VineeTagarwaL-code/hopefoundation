@@ -12,8 +12,8 @@ const Page = () => {
     <>
       <Navbar />
       <div className="h-full flex justify-center  mt-5 ">
-        <div className="w-[70%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
-          <h1 className="text-3xl md:text-4xl text-[#d47f22] mt-3">
+      <div className="md:w-[80%] w-[90%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
+        <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-[#d47f22] w-full text-left ">
             What is DRUG addiction ?
           </h1>
           <p className="text-lg text-gray-500 mt-5">
@@ -53,9 +53,9 @@ const Page = () => {
             urge with cognitive thinking and mindfulness.
           </p>
           <div>
-            <p className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Who is most at risk of drug addiction?
-            </p>
+            </h1>
             <p className="text-lg text-gray-500 mt-5">
               Drug addiction, and its symptoms, don’t discriminate. Men, women,
               young and old across the socioeconomic spectrum can fall prey to
@@ -68,7 +68,7 @@ const Page = () => {
             {drug.map((drugs, index) => {
               return (
                 <div key={index}>
-                  <p className="text-xl font-bold mt-3 underline decoration-wavy">
+                  <p className="text-xl font-bold mt-3 ">
                     {drugs.title}
                   </p>
                   <p className="text-lg mt-3 text-gray-500">{drugs.point}</p>
@@ -77,9 +77,9 @@ const Page = () => {
             })}
           </div>
           <div>
-            <p className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Signs and symptoms of drug addiction
-            </p>
+            </h1>
             <p className="text-lg text-gray-500 mt-5">
               The common symptoms of drug addiction include:
             </p>
@@ -139,9 +139,9 @@ const Page = () => {
               <br />
               v) Increased food cravings after drug consumption.
             </p>
-            <p className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Identifying your triggers
-            </p>
+            </h1>
             <p className="text-lg text-gray-500 mt-5">
               Combating drug addiction is tricky as any normal scenario could
               act as a trigger and resurface the urge to consume drugs.
@@ -155,7 +155,7 @@ const Page = () => {
               ride on the patient’s nostalgia and are stimulated by mental,
               environmental, and emotional factors.
             </p>
-            <p className="text-xl text-gray-500 mt-5 font-semibold underline    ">
+            <p className="text-lg text-gray-500 mt-5 font-semibold underline    ">
               The most common triggers for drug use are:
             </p>
             {triggers.map((trig, index) => {
@@ -166,9 +166,9 @@ const Page = () => {
                 </div>
               );
             })}
-            <p className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Dealing with drug cravings{" "}
-            </p>
+            </h1>
             <p className="text-lg mt-3 text-gray-500">
               Cravings are normal when you are trying to overcome a drug
               addiction problem. However, dealing with those cravings and not
@@ -190,9 +190,9 @@ const Page = () => {
               );
             })}
             <div>
-              <p className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
                 Types of Drug addiction{" "}
-              </p>
+              </h1>
               <p className="text-lg text-gray-500 mt-5">
                 Depending on the nature of the substance used, the nature of the
                 addiction is defined, and a specified drug detoxification

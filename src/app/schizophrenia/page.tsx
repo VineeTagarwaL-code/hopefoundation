@@ -13,9 +13,9 @@ const Page = () => {
     <>
       <Navbar />
       <div className="h-full flex justify-center  mt-5 ">
-        <div className="w-[70%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
+        <div className="md:w-[80%] w-[90%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
           <div>
-            <h1 className="text-3xl md:text-4xl text-[#d47f22] mt-3">
+            <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-[#d47f22] w-full text-left ">
               What is Schizophrenia?
             </h1>
             <p className="text-lg text-gray-500 mt-5">
@@ -30,7 +30,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-500 w-full text-left mt-5">
               Symptoms of Schizophrenia
             </h1>
             <p className="text-lg text-gray-500 mt-5">
@@ -75,7 +75,9 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <p className="text-3xl text-blue-500 mt-5">Positive Symptoms</p>
+            <p className="text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-500 w-full text-left mt-5">
+              Positive Symptoms
+            </p>
             <p className="text-lg text-gray-500 mt-5">
               There are certain symptoms of schizophrenia disease that can
               pinpoint to the primary healthcare provider the actual presence of
@@ -99,12 +101,14 @@ const Page = () => {
             })}
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">Negative Symptoms</h1>
+            <p className="text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-500 w-full text-left mt-5">
+              Negative Symptoms
+            </p>
             <p className="text-lg text-gray-500 mt-5">
               These symptoms are the ones that can be seen to interrupt the
               patient’s typical emotional behaviour and abilities.
             </p>
-            <p className="text-xl text-gray-500 mt-5 font-semibold underline w-full ">
+            <p className="text-lg text-gray-500 mt-5 font-semibold underline w-full ">
               These consist of:
             </p>
             {negativeSymptoms.map((symptom, index) => {
@@ -120,15 +124,15 @@ const Page = () => {
             })}
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <p className="text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-500 w-full text-left mt-5">
               Cognitive Symptoms of Schizophrenia
-            </h1>
+            </p>
             <p className="text-lg mt-3 text-gray-500">
               Among the most widely known schizophrenia facts, there has been
               evidence that the disorder affects thinking and cognitive
               abilities.
             </p>
-            <p className="text-xl text-gray-500 mt-5 font-semibold underline w-full ">
+            <p className="text-lg text-gray-500 mt-5 font-semibold underline w-full ">
               These symptoms are often very hard to detect:
             </p>
             {cognitiveSymptoms.map((symptom, index) => {
@@ -137,8 +141,7 @@ const Page = () => {
                   <p className="text-lg text-gray-500 font-semibold mt-5 ">
                     {symptom.title}
                   </p>
-                  <div className="text-lg mt-3 text-gray-500" />
-                  <p>{symptom.point}</p>
+                  <p className="text-lg mt-3 text-gray-500">{symptom.point}</p>
                 </div>
               );
             })}
@@ -149,7 +152,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <p className="text-3xl text-blue-500 mt-5">
+            <p className="text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-500 w-full text-left mt-5">
               Causes of Schizophrenia
             </p>
             <p className="text-lg mt-3 text-gray-500">
@@ -174,11 +177,10 @@ const Page = () => {
             {biologicalfactors.map((factors, index) => {
               return (
                 <div key={index}>
-                  <p className="text-lg  text-gray-500 font-semibold mt-5 ">
+                  <p className="text-xl text-gray-500 font-semibold mt-5 ">
                     {factors.title}
                   </p>
-                  <div className="text-lg mt-3 text-gray-500" />
-                  <p>{factors.point}</p>
+                  <p className="text-lg mt-3 text-gray-500 ">{factors.point}</p>
                 </div>
               );
             })}
@@ -213,7 +215,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-500 w-full text-left mt-5">
               Types of Schizophrenia
             </h1>
             {schizophreniaTypes.map((types, index) => {
@@ -231,7 +233,7 @@ const Page = () => {
             })}
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-500 w-full text-left mt-5">
               Schizophrenia Diagnosis and Treatment{" "}
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -241,7 +243,7 @@ const Page = () => {
               treat schizophrenia, multiple psychometric tests and exams need to
               be done before confirming the diagnosis.
             </p>
-            <p className="text-xl text-gray-500 mt-5 font-semibold underline w-full ">
+            <p className="text-lg text-gray-500 mt-5 font-semibold underline w-full ">
               These health exams comprise of the following:
             </p>
             <ul className="list-disc text-lg text-gray-500 mt-3 ml-6">
@@ -274,7 +276,7 @@ const Page = () => {
               same type of symptoms. This is why doctors need to perform an
               exhaustive number of tests to rule out other issues.{" "}
             </p>
-            <p className="text-xl text-gray-500 mt-5 font-semibold underline w-full ">
+            <p className="text-lg text-gray-500 mt-5 font-semibold underline w-full ">
               {" "}
               Some of the health disorders that have similar symptoms to
               schizophrenia are:
@@ -288,7 +290,9 @@ const Page = () => {
             </ul>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">How is it Treated?</h1>
+            <h1 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-500 w-full text-left mt-5">
+              How is it Treated?
+            </h1>
             <p className="text-lg mt-3 text-gray-500">
               There is no standard way to treat Schizophrenia, but early
               diagnosis and schizophrenia treatment can help get the symptoms
@@ -340,7 +344,7 @@ const Page = () => {
             })}
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-500 w-full text-left mt-5">
               Myths and Facts About Schizophrenia
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -356,7 +360,7 @@ const Page = () => {
             <AccordionDemo />
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-500 w-full text-left mt-5">
               Risks and Complications of Schizophrenia
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -401,7 +405,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+            <h1 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-500 w-full text-left mt-5">
               Living With Schizophrenia
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -417,7 +421,7 @@ const Page = () => {
               patients with schizophrenia can live a normal life devoid of
               frequent episodes or symptoms.
             </p>
-            <p className="text-xl text-gray-500 mt-5 font-semibold underline w-full ">
+            <p className="text-lg text-gray-500 mt-5 font-semibold underline w-full ">
               Steps patients can take to lead a better life with schizophrenia:
             </p>
             {livingWithSchizophrenia.map((schizophrenia, index) => {
@@ -435,7 +439,9 @@ const Page = () => {
             })}
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">Prognosis</h1>
+            <h1 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-500 w-full text-left mt-5">
+              Prognosis
+            </h1>
             <p className="text-lg mt-3 text-gray-500">
               There is no surefire way to prevent schizophrenia as the
               researchers have still not been able to figure out the actual
@@ -453,7 +459,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-500 w-full text-left mt-5">
               Getting Help For Schizophrenia
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -491,7 +497,7 @@ const Page = () => {
             </ul>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-500 w-full text-left mt-5">
               Rehab For Schizophrenia: What happens at Rehab?
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -521,13 +527,17 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-blue-500 w-full text-left mt-5">
               Schizophrenia FAQ: All you need to know
             </h1>
             <AccordionFaq />
-            </div>
-          <p className="font-semibold text-xl text-[#d47f22] mt-5 ">Reach out to us on our 24/7 helpline at +91 9064287773 or mail us on durgapurhopefoundation@gmail.com for any queries or support for schizophrenia and its treatment plans.</p>
-        <GoBack/>
+          </div>
+          <p className="font-semibold text-xl text-[#d47f22] mt-5 ">
+            Reach out to us on our 24/7 helpline at +91 9064287773 or mail us on
+            durgapurhopefoundation@gmail.com for any queries or support for
+            schizophrenia and its treatment plans.
+          </p>
+          <GoBack />
         </div>
       </div>
     </>
@@ -736,7 +746,7 @@ const AccordionDemo = () => {
     <Accordion type="single" collapsible className="w-full p-5">
       {Myth.map((myth, index) => (
         <AccordionItem key={index} value={`myth-${index}`}>
-          <AccordionTrigger className="text-xl text-gray-500 font-semibold mt-3 ">
+          <AccordionTrigger className="text-lg text-gray-500 font-semibold mt-3 ">
             {myth.myths}
           </AccordionTrigger>
           <AccordionContent className="text-lg  text-gray-500">
@@ -753,7 +763,7 @@ const AccordionFaq = () => {
     <Accordion type="single" collapsible className="w-full p-5">
       {faq.map((faqs, index) => (
         <AccordionItem key={index} value={`faqs-${index}`}>
-          <AccordionTrigger className="text-xl text-gray-500 font-semibold mt-3 ">
+          <AccordionTrigger className="text-lg text-gray-500 font-semibold mt-3 ">
             {faqs.myths}
           </AccordionTrigger>
           <AccordionContent className="text-lg  text-gray-500">
@@ -786,10 +796,10 @@ const faq = [
     myths: "What are the risk factors for schizophrenia?",
     facts: `The risk factors for schizophrenia include brain development, brain structure and chemistry of the individual as well as genetics and environment.`,
   },
-{
-   myths: "What are the subtypes of schizophrenia?",
-    
-  facts:` Schizophrenia has the following subtypes.
+  {
+    myths: "What are the subtypes of schizophrenia?",
+
+    facts: ` Schizophrenia has the following subtypes.
     
     Paranoid schizophrenia – It is characterized by feelings of grandiosity, suspicion for others, persecution or a combination of them.
     
@@ -811,4 +821,3 @@ const faq = [
     facts: `Schizophrenia is a lifelong journey of treatment and self-help. However, adherence to the treatment protocol can help Schizophrenics become more self reliant. Support from caregivers and family members is essential to help those suffering from Schizophrenia manage their symptoms and lead anormal life.`,
   },
 ];
-

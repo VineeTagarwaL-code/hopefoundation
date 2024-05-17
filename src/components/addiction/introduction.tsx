@@ -1,6 +1,6 @@
 import { SectionWrapper } from "../seciton-wrapper";
 import { CarouselSize } from "./cards";
-export const Intro = () => {
+export const Addiction = () => {
   return (
          <div className="w-full h-full ">
         <div className="flex justify-center items-center flex-col px-6 ">

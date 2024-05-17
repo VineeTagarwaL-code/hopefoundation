@@ -13,9 +13,9 @@ const Page = () => {
     <>
       <Navbar />
       <div className="h-full flex justify-center  mt-5 ">
-        <div className="w-[70%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
+      <div className="md:w-[80%] w-[90%] bg-gray-50 flex  flex-wrap pl-5 pr-5">
           <div>
-            <h1 className="text-3xl md:text-4xl text-[#d47f22] mt-3">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-[#d47f22] w-full text-left ">
               Gaming Addiction Explained
             </h1>
             <p className="text-lg text-gray-500 mt-5">
@@ -58,7 +58,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Gaming addiction classified as disorder by WHO
             </h1>
             <p className="text-lg mt-3 text-gray-500">
@@ -88,7 +88,7 @@ const Page = () => {
             </ul>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Types of Gaming Addiction
             </h1>
             <p className="text-lg text-gray-500 mt-3 ">
@@ -126,7 +126,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Stages of a Gaming Addiction
             </h1>
             <p className="text-lg text-gray-500 mt-5 ">
@@ -177,7 +177,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Causes and Risk Factors of Gaming Addiction{" "}
             </h1>
             <p className="text-lg text-gray-500 mt-3 ">
@@ -235,7 +235,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               How Gaming Affects the Brain
             </h1>
             <p className="text-lg text-gray-500 mt-3 ">
@@ -265,7 +265,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Signs & Symptoms of Gaming Addiction
             </h1>
             <p className="text-lg text-gray-500 mt-3 ">
@@ -312,7 +312,7 @@ const Page = () => {
                 friends, family, and the real world.
               </li>
             </ul>
-            <p className="text-xl text-gray-500 font-bold mt-3 ">
+            <p className="text-lg text-gray-500 font-bold mt-3 ">
               Physical symptoms of video game addiction
             </p>
             <ul className="list-disc text-lg text-gray-500 mt-3 ml-6">
@@ -350,7 +350,8 @@ const Page = () => {
             </ul>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+
               Gaming Addiction and Depression
             </h1>
             <p className="text-lg text-gray-500 mt-3 ">
@@ -384,7 +385,8 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+
               Gaming Addiction and Substance Abuse
             </h1>
             <p className="text-lg text-gray-500 mt-3 ">
@@ -428,7 +430,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Short-Term Impacts of Gaming Addiction
             </h1>
             <p className="text-lg text-gray-500 mt-3 ">
@@ -459,7 +461,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Long-Term Impacts of Gaming Addiction
             </h1>
             <p className="text-lg text-gray-500 mt-3 ">
@@ -497,7 +499,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Treatment for Gaming Addiction
             </h1>
             <p className="text-lg text-gray-500 mt-3 ">
@@ -521,7 +523,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Self-assessment tests for gaming addiction and their efficacy
             </h1>
             <p className="text-lg text-gray-500 mt-3 ">
@@ -539,7 +541,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Drugs for video game addiction
             </h1>
             <p className="text-lg text-gray-500 mt-3 ">
@@ -555,7 +557,7 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
               Prevention for Gaming Addiction
             </h1>
             <p className="text-lg text-gray-500 mt-3 ">
@@ -609,7 +611,8 @@ const Page = () => {
             </ul>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">Ready to Get Help?</h1>
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+Ready to Get Help?</h1>
             <p className="text-lg text-gray-500 mt-3 ">
               It is a truism that no addict can be helped until and unless
               they’re prepared to acknowledge their addiction and to ask for
@@ -623,7 +626,8 @@ const Page = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-3xl text-blue-500 mt-5">
+          <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
+
               Take Control of Your Life – get Started on the Road to Recovery
             </h1>
             <p className="text-lg text-gray-500 mt-3 ">
