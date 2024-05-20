@@ -12,6 +12,8 @@ import { OurCenter } from "@/components/ourCenter";
 import { Video } from "@/components/video";
 import { SpiritualHealing } from "@/components/spiritualHealing";
 import { TransitionalHousing } from "@/components/transitionalHousing";
+import { Slider } from "@/components/slider/slider";
+import { MotiveSlider } from "@/components/slider/motiveSlider";
 
 
 export default function Home() {
@@ -27,10 +29,14 @@ export default function Home() {
       <FamilyCoun/>
       <TransitionalHousing/>
       <Motive/>
+       <Slider/>
       <OurCenter/>
+
       <Addiction/>
+      <MotiveSlider/>
       <Contact/>
       <Footer/>
+     
     </main>
   );
 }

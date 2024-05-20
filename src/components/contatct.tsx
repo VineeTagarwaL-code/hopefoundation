@@ -10,12 +10,12 @@ export const Contact = () => {
     message: "",
   };
   const [formData, setFormData] = useState(initialFormState);
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
+  const handleInputChange = (event: { target: { name: any; value: any; }; }) => {
+    const { name, value } = event.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     console.log("Form submitted:", formData);
     setFormData(initialFormState);
@@ -25,6 +25,7 @@ export const Contact = () => {
     <>
       <h1 className="text-4xl md:text-5xl flex justify-center items-center font-bold text-[#d47f22] w-full py-10">
         Contact Us
+
       </h1>
       
       <div className="flex flex-col md:flex-row w-full h-full mb-11 px-4 md:px-14">

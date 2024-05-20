@@ -627,7 +627,6 @@ Ready to Get Help?</h1>
           </div>
           <div>
           <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-blue-500 w-full text-left mt-5">
-
               Take Control of Your Life – get Started on the Road to Recovery
             </h1>
             <p className="text-lg text-gray-500 mt-3 ">
