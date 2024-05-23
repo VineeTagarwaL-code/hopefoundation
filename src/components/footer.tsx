@@ -40,7 +40,7 @@ export const Footer = () => {
         <button
           className="bg-orange-600 text-white py-2 px-4 rounded cursor-pointer text-base mb-8" 
         >
-          Let's Chat!
+          Let&apos;s Chat!
         </button>
       </footer>
     );
