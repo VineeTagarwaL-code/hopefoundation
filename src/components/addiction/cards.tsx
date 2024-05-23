@@ -29,7 +29,7 @@ export function CarouselSize() {
             >
               <Card>
                 <CardContent className="flex flex-col items-center p-6 ">
-                  <div className="bg-gray-100 rounded-lg shadow-lg transition-transform duration-200 hover:scale-105">
+                  <div className="bg-gray-100 rounded-lg shadow-lg transition-transform duration-200 hover:scale-105 border-none">
                     <Image
                       src={message.image}
                       width={400}
@@ -38,11 +38,11 @@ export function CarouselSize() {
                       className="w-full h-60 object-cover rounded-t-lg"
                     />
                     <div className="flex flex-col gap-6 p-4">
-                      <div className="flex justify-center items-center font-bold">
+                      <p className="flex justify-start items-center font-bold">
                         {message.title}
-                      </div>
+                      </p>
                       <div className="flex flex-col text-wrap text-left gap-4 ">
-                        <div className="w-full h-0.5 bg-gray-300" />
+              
                         <p className="text-base hover:text-gray-500">
                           {message.content}
                         </p>

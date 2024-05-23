@@ -1,8 +1,10 @@
 "use client";
 import { motion } from "framer-motion";
 import { useState } from "react";
-
+import { sendEmail } from "@/utils/email";
+import { Loader } from "lucide-react";
 export const Contact = () => {
+  const [loading , setLoading] = useState(false)
   const initialFormState = {
     name: "",
     email: "",
@@ -15,10 +17,37 @@ export const Contact = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e: { preventDefault: () => void; }) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-    setFormData(initialFormState);
+  const handleSubmit = async (e: { preventDefault: () => void; }) => {
+
+    try{
+      setLoading(true)
+      e.preventDefault();
+      console.log("Form submitted:", formData);
+      setFormData(initialFormState);
+     
+      await sendEmail({
+        to: process.env.NEXT_PUBLIC_EMAIL_ID || "",
+        subject: 'Enquiry from Website',
+        text: `
+
+Enquiry from :
+
+Name: ${formData.name}
+Email: ${formData.email}
+Subject: ${formData.subject}
+Message: ${formData.message}
+
+
+Thank you,
+The Hope Foundation Mailer`,
+      });
+    }catch(err){
+      console.log(err)
+    }finally{
+      setLoading(false)
+    
+    }
+
   };
 
   return (
@@ -112,10 +141,11 @@ export const Contact = () => {
 
             <div className="flex justify-end md:justify-center mb-10">
               <motion.button
-                whileHover={{ translateY: -10 }}
                 className="px-4 py-2 gap-3 mt-4 text-lg md:text-2xl bg-[#f09a29] rounded-md border-solid border-2 border-transparent hover:border-orange-300 transition-all text-white cursor-pointer hover:bg-transparent hover:text-orange-300"
               >
-                Send
+                {
+                  loading ? <Loader className="animate-spin" /> : "Send"
+                }
               </motion.button>
             </div>
           </form>

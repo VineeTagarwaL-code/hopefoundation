@@ -16,29 +16,26 @@ import { Slider } from "@/components/slider/slider";
 import { MotiveSlider } from "@/components/slider/motiveSlider";
 import { Review } from "@/components/review";
 
-
 export default function Home() {
   return (
     <main className="min-h-screen relative scroll-smooth select-none">
-      <Navbar/>
-      <Introduction/>
-      <Main/>
-<Video/>
-      <Medical/>
-      <Pyschological/>
-      <SpiritualHealing/>   
-      <FamilyCoun/>
-      <TransitionalHousing/>
-      <Motive/>
-       <Slider/>
-      <OurCenter/>
-
-      <Addiction/>
-      <MotiveSlider/>
-      <Contact/>
-      <Review/>
-      <Footer/>
-     
+      <Navbar />
+      <Introduction />
+      <Main />
+      <Video />
+      <Medical />
+      <Pyschological />
+      <SpiritualHealing />
+      <FamilyCoun />
+      <TransitionalHousing />
+      <Motive />
+      {/* <Slider /> */}
+      <OurCenter />
+      <Addiction />
+      <MotiveSlider />
+      <Contact />
+      <Review />
+      <Footer />
     </main>
   );
 }

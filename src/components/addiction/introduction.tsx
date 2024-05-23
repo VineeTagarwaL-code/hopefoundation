@@ -2,7 +2,8 @@ import { SectionWrapper } from "../seciton-wrapper";
 import { CarouselSize } from "./cards";
 export const Addiction = () => {
   return (
-         <div className="w-full h-full ">
+    <SectionWrapper>
+               <div className="w-full h-full ">
         <div className="flex justify-center items-center flex-col px-4 ">
         <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-[#d47f22] w-full text-left ">
          What is Addiction?
@@ -20,5 +21,7 @@ export const Addiction = () => {
      
  <CarouselSize/>
  </div>
+    </SectionWrapper>
+
   );
 };

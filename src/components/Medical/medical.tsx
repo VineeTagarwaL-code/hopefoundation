@@ -1,9 +1,11 @@
 import React from "react";
 import medContent from "../Medical/medContent.json";
+import { SectionWrapper } from "../seciton-wrapper";
 
 export const Medical = () => {
   return (
-    <div className="w-full h-full mt-12  ">
+    <SectionWrapper>
+<div className="w-full h-full mt-12  ">
       <div className="flex justify-center items-center flex-col px-6 ">
         <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-[#d47f22] w-full text-left ">
           MEDICAL CARE AND DETOX FOR DRUG AND ALCOHOL ADDICTION
@@ -42,6 +44,8 @@ export const Medical = () => {
         ))}
       </div>
     </div>
+    </SectionWrapper>
+    
   );
 };
 

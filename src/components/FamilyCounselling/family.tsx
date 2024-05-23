@@ -1,9 +1,11 @@
 import React from "react";
 import familyContent from "../FamilyCounselling/familyCounselling.json";
+import { SectionWrapper } from "../seciton-wrapper";
 
 export const FamilyCoun = () => {
   return (
-    <div className="w-full h-full">
+    <SectionWrapper>
+      <div className="w-full h-full">
       <div className="flex justify-center items-center flex-col px-6">
       <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-[#d47f22] w-full text-left ">
         Family Counselling
@@ -47,6 +49,8 @@ export const FamilyCoun = () => {
         ))}
       </div>
     </div>
+    </SectionWrapper>
+    
   );
 };
 

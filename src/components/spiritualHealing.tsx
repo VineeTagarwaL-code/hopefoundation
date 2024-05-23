@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Spiritual from "../assets/spiritualHealing.png";
+import { SectionWrapper } from "./seciton-wrapper";
 
 export const SpiritualHealing = () => {
   return (
-    <div className="w-full h-full flex flex-col md:flex-row px-6 gap-4 mb-24">
+    <SectionWrapper>
+      <div className="w-full h-full flex flex-col md:flex-row px-6 gap-4 mb-24">
       <div className="w-full 2xl:w-4/5 mt-10 flex flex-col  gap-4">
         <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-[#d47f22] w-full text-left">
           SPIRITUAL HEALING BY THE HELP OF 12 STEPS PROGRAM
@@ -49,5 +51,7 @@ export const SpiritualHealing = () => {
         />
       </div>
     </div>
+    </SectionWrapper>
+    
   );
 };

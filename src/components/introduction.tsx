@@ -7,10 +7,9 @@ import Image from "next/image";
 
 export const Introduction = () => {
   return (
-    <SectionWrapper>
-      <div className="w-full   flex mt-12 md:mt-0 md:justify-center items-start flex-col h-[calc(100vh-95px)] relative overflow-hidden">
-        {/* <div className="z-100 bg-gradient-to-b from-transparent to-slate-100/20 h-full w-full absolute"/> */}
-        <div className="text-3xl md:text-6xl flex flex-col  gap-4 md:gap-6 text-gray-800 pl-6">
+
+      <div className="w-full   flex mt-12 md:mt-0 md:justify-center items-start flex-col md:h-[calc(100vh-95px)] relative overflow-hidden">
+        <div className="text-3xl md:text-6xl flex flex-col  gap-4 md:gap-6 text-gray-800 pl-2 md:pl-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -36,7 +35,7 @@ export const Introduction = () => {
             transition={{ duration: 1, delay: 0.7 }}
             className="flex flex-col gap-2"
           >
-            <p className=" w-[60%] text-lg md:text-2xl ">
+            <p className=" w-full md:w-[60%] text-lg md:text-2xl ">
               Durgapur Hope Foundation provides holistic treatment for substance
               addiction offering comprehensive care for lasting recovery in a supportive
               environment.
@@ -48,7 +47,7 @@ export const Introduction = () => {
           animate={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 1, delay: 0.9 }}
-          className="flex justify-center items-center gap-4 mt-6 md:mt-16 pl-6"
+          className="flex justify-center items-center gap-4 mt-6 md:mt-16 pl-2 md:pl-12"
         >
           <motion.button
             whileHover={{ translateY: -10 }}
@@ -66,7 +65,7 @@ export const Introduction = () => {
 
        
           <Image
-            className="absolute right-[-160px] rotate-[-45deg] bottom-[-30px] hidden lg:inline-block z-10 xs:hidden"
+            className="absolute right-[-160px] rotate-[-45deg] bottom-[-30px]  lg:inline-block z-10 hidden"
             src={hand}
             alt="Handshake"
             height={600}
@@ -74,6 +73,6 @@ export const Introduction = () => {
           />
 
       </div>
-    </SectionWrapper>
+
   );
 };

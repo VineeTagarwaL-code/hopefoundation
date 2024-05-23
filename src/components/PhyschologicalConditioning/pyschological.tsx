@@ -1,10 +1,11 @@
 import Image from "next/image";
 import pyschological from "../../assets/psychologicial.webp";
 import { AccordionDemo } from "./accordion";
+import { SectionWrapper } from "../seciton-wrapper";
 
 export const Pyschological = () => {
   return (
-    <>
+    <SectionWrapper>
       <div className="w-full h-full flex flex-col md:flex-row px-6 gap-4 mt-11">
         <div className="w-full 2xl:w-5/6 flex flex-col justify-center items-center md:items-start gap-4">
           <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-[#d47f22] w-full text-left ">
@@ -50,6 +51,6 @@ export const Pyschological = () => {
       <div className="bottom-0 left-0">
         <AccordionDemo />
       </div>
-    </>
+    </SectionWrapper>
   );
 };

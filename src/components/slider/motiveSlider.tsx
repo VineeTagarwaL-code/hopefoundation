@@ -9,10 +9,11 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
+import { SectionWrapper } from "../seciton-wrapper";
 
 export function MotiveSlider() {
   return (
-    <>
+    <SectionWrapper>
       <h1 className="md:text-3xl text-xl font-semibold text-blue-500 mt-5 text-left px-4 ">
 
           Recite some Motivational Quotes and to uplift and change the way you
@@ -38,7 +39,7 @@ export function MotiveSlider() {
           opts={{
             align: "center",
           }}
-          className="mx-20"
+          
         >
           <CarouselContent className="flex">
             {images.map((image, index) => (
@@ -68,6 +69,6 @@ export function MotiveSlider() {
           <CarouselNext />
         </Carousel>
       </div>
-    </>
+    </SectionWrapper>
   );
 }

@@ -1,10 +1,12 @@
 "use client";
 import Image from "next/image";
 import Hope from "../assets/hope.jpg";
+import { SectionWrapper } from "./seciton-wrapper";
 
 export const Motive = () => {
   return (
-    <div className="flex flex-row px-4 w-full h-full mb-11 ">
+    <SectionWrapper>
+<div className="flex flex-row px-4 w-full h-full mb-11 ">
       <div className="2xl:w-[70%] w-full mt-10 flex-col gap-4 text-left">
       <h1 className="text-2xl md:text-4xl lg:text-4xl font-semibold text-[#d47f22] w-full text-left">
           Purpose & Motive
@@ -48,6 +50,8 @@ export const Motive = () => {
         />
       </div>
     </div>
+    </SectionWrapper>
+    
   );
 };
 
