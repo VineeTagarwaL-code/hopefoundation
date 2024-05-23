@@ -2,7 +2,7 @@ import FamilyCoun from "@/components/FamilyCounselling/family";
 import Medical from "@/components/Medical/medical";
 import { Pyschological } from "@/components/PhyschologicalConditioning/pyschological";
 import { Addiction } from "@/components/addiction/introduction";
-import { Contact } from "@/components/contatct";
+import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
 import { Introduction } from "@/components/introduction";
 import { Main } from "@/components/main";
@@ -14,6 +14,7 @@ import { SpiritualHealing } from "@/components/spiritualHealing";
 import { TransitionalHousing } from "@/components/transitionalHousing";
 import { Slider } from "@/components/slider/slider";
 import { MotiveSlider } from "@/components/slider/motiveSlider";
+import { Review } from "@/components/review";
 
 
 export default function Home() {
@@ -35,6 +36,7 @@ export default function Home() {
       <Addiction/>
       <MotiveSlider/>
       <Contact/>
+      <Review/>
       <Footer/>
      
     </main>

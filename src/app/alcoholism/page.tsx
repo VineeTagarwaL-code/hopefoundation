@@ -64,8 +64,8 @@ const Page = () => {
             treatment environments provide you with the ideal setting to address
             your challenges and achieve full and sustainable recovery.
           </p>
-          <div>
-            <p className="md:text-2xl text-xl font-semibold text-blue-500 mt-5">
+          <div>            <p className="md:text-2xl text-xl font-semibold text-blue-500 mt-5">
+
               THERE ARE THREE CRUCIAL PHASES OF ALCOHOL ADDICTION{" "}
             </p>
             <p className="flex text-xl md:text-2xl mt-5 text-[#d47f22]">

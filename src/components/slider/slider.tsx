@@ -34,7 +34,7 @@ export function Slider() {
                       width={900}
                       height={400}
                       alt={`Image ${index + 1}`}
-                      className="w-full h-auto"
+                      className="w-full h-full"
                       priority={index === 0}
                     />
                   </CardContent>

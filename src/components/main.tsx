@@ -4,6 +4,10 @@ import Images from "../assets/Mother_Teresa_1.jpg";
 import { motion } from "framer-motion";
 import { CircleHelp } from "lucide-react";
 export const Main = () => {
+  const phoneNumber=7001029801 ;
+  const handleCallClick = () => {
+    window.location.href = `tel:${phoneNumber}`;
+  };
   return (
     <div className="w-screen px-6 flex flex-row h-full overflow-hidden">
       <div className=" 2xl:w-[70%] w-full   flex justify-center items-center flex-col pl-1  ">
@@ -51,7 +55,8 @@ export const Main = () => {
             <motion.button
               whileHover={{ translateY: -10 }}
               className="px-4 py-4 text-xl  bg-[#f09a29] rounded-md border-solid border-2 border-transparent hover:border-orange-300 transition-all text-white cursor-pointer hover:bg-transparent hover:text-orange-300"
-            >
+              onClick={handleCallClick}
+           >
               Make a Call
             </motion.button>
           </motion.div>
