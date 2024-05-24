@@ -141,10 +141,10 @@ The Hope Foundation Mailer`,
 
             <div className="flex justify-end md:justify-center mb-10">
               <motion.button
-                className="px-4 py-2 gap-3 mt-4 text-lg md:text-2xl bg-[#f09a29] rounded-md border-solid border-2 border-transparent hover:border-orange-300 transition-all text-white cursor-pointer hover:bg-transparent hover:text-orange-300"
+                className="px-4 py-2 gap-3 mt-4 text-lg md:text-2xl bg-[#f09a29] rounded-md border-solid border-2 border-transparent hover:border-orange-300 transition-all text-white cursor-pointer hover:bg-transparent hover:text-orange-300 min-w-[200px]"
               >
                 {
-                  loading ? <Loader className="animate-spin" /> : "Send"
+                  loading ? <Loader className="animate-spin" /> : "Send Enquiry"
                 }
               </motion.button>
             </div>

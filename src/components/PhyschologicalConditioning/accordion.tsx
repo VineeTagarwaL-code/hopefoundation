@@ -7,7 +7,7 @@ import {
 
 export function AccordionDemo() {
   return (
-    <Accordion type="single" collapsible className="2xl:text-xl text-lg font-bold text-gray-500 p-5 " >
+    <Accordion type="single" collapsible className="2xl:text-xl text-lg font-bold text-gray-500 p-5 w-full  md:w-[1200px]" >
       <AccordionItem value="item-1">
         <AccordionTrigger>i) Behavioural Change Strategies :</AccordionTrigger>
         <AccordionContent className="text-gray-500 text-base">

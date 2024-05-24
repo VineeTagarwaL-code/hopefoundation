@@ -4,6 +4,7 @@ import { ChevronRight, PhoneCall } from "lucide-react";
 import { motion } from "framer-motion";
 import hand from "@/assets/handshake.png";
 import Image from "next/image";
+import { call } from "@/utils/call";
 
 export const Introduction = () => {
   return (
@@ -56,6 +57,7 @@ export const Introduction = () => {
             Know more <ChevronRight />
           </motion.button>
           <motion.button
+          onClick={call}
             whileHover={{ translateY: -10 }}
             className="flex justify-center items-center px-4 py-2 gap-3 text-lg md:text-2xl bg-[#f09a29] rounded-md border-solid border-2 border-transparent hover:border-orange-300 transition-all text-white cursor-pointer hover:bg-transparent hover:text-orange-300"
           >
