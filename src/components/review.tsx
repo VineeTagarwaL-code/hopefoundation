@@ -1,8 +1,10 @@
+import { SectionWrapper } from "./seciton-wrapper";
+
 export const Review = () => {
   return (
-    <>
- <div className="h-screen w-screen flex justify-center items-center flex-col mt-20">
- <h1 className="text-3xl md:text-3xl flex justify-center items-center font-bold text-[#d47f22] w-full py-10">
+    <SectionWrapper>
+ <div className="h-screen w-screen flex justify-center items-center flex-col mt-20 px-2">
+ <h1 className="text-xl md:text-3xl flex justify-center items-center font-bold text-[#d47f22] w-full py-10">
           POST A REVIEW ABOUT YOUR EXPERIENCE
         </h1>
        
@@ -14,6 +16,6 @@ export const Review = () => {
           ></iframe>
         </div>
     
-    </>
+    </SectionWrapper>
   );
 };

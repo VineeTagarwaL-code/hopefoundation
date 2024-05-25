@@ -4,8 +4,9 @@ import NavLinks from "@/constants/NavLink";
 import Logo from "../assets/logo.jpg";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
-import { Link } from "react-scroll";
+import { Link,animateScroll as scroll  } from "react-scroll";
 import { motion } from "framer-motion";
+
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const handleNav = () => {
@@ -31,7 +32,12 @@ export const Navbar = () => {
             whileTap={{ scale: 0.9 }}
             key={link.name}
           >
-            <Link to="">
+            <Link 
+            spy={true}
+            smooth={true}
+            duration={500}
+            to={link.to || ""}
+            >
               <div className="flex justify-center items-center px-4 py-2 gap-3 bg-[#f09a29] rounded-md border-solid border-2 border-transparent hover:border-orange-300 transition-all text-white cursor-pointer hover:bg-transparent hover:text-orange-300">
                 {link.icon}
                 <span>{link.name}</span>
@@ -46,30 +52,35 @@ export const Navbar = () => {
       <div
         className={
           menuOpen
-            ? "fixed left-0 top-0 w-[75%] lg:hidden h-screen    p-10 ease-in-out duration-500"
+            ? "fixed left-0 top-0 w-[75%] lg:hidden h-screen    p-10 ease-in-out duration-500 bg-white z-[1000]"
             : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
         }
       >
         <div className="flex w-full items-center justify-end">
           <div onClick={handleNav} className="cursor-pointer">
-            <X size={45}></X>
+            <X size={30}/>
           </div>
         </div>
         <div className="flex-row">
-          {NavLinks.map((link, index) => (
-            <li key={index} className="text-xl uppercase ">
-              <a href={link.href} className="flex items-center  ">
-                {link.icon && (
-                  <span className="hover:text-[#E57226] hover:opacity-95 hover:scale-125 cursor-pointer ">
-                    {link.icon}
-                  </span>
-                )}
-                <span className="hover:text-[#E57226] hover:scale-105 cursor-pointer  text-2xl text-black p-3">
-                  {link.name}
-                </span>
-              </a>
-            </li>
-          ))}
+        {NavLinks.map((link, index) => (
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            key={link.name}
+          >
+            <Link 
+            spy={true}
+            smooth={true}
+            duration={500}
+            to={link.to || ""}
+            >
+              <div className="flex justify-center items-center px-4 py-2 gap-3 bg-[#f09a29] rounded-md border-solid border-2 border-transparent hover:border-orange-300 transition-all text-white cursor-pointer hover:bg-transparent hover:text-orange-300">
+                {link.icon}
+                <span>{link.name}</span>
+              </div>
+            </Link>
+          </motion.div>
+        ))}
         </div>
       </div>
     </motion.nav>

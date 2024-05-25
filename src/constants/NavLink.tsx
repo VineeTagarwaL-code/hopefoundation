@@ -4,26 +4,25 @@ import { call } from "@/utils/call";
 type NavLink = {
     name: string;  
     icon: React.ReactNode;
-    href:string;
+    to?:string;
     handler: () => void;
 }
  const NavLinks:NavLink[] = [
     {
         "name": "Addiction",
         "icon": <Activity size={18}/>,
-        "href":"/",
+        "to":"addiction",
         handler: () => {call()}
     }, {
         "name": "Treatment",
         "icon": <Cross size={18}/>,
-        "href":"/",
+        "to":"treatment",
         handler: () => {call()}
     },
     
     {
         "name": "Call",
         "icon": <PhoneCall size={18}/>,
-        "href":"/",
         handler: () => {call()}
     },
 ]

@@ -9,18 +9,18 @@ export const Main = () => {
   return (
     <div className="w-screen px-6 flex flex-row h-full overflow-hidden">
       <div className=" 2xl:w-[70%] w-full   flex justify-center items-center flex-col pl-1  ">
-        <h1 className="text-2xl font-bold md:text-4xl text-left text-[#d47f22] w-full md:font-semibold mt-10  lg:text-5xl  mb-5">
+        <h1 className="text-xl font-bold md:text-4xl text-left text-[#d47f22] w-full md:font-semibold mt-10  lg:text-5xl  mb-5">
           Welcome to Durgapur Hope Foundation
         </h1>
-        <span className=" text-xl md:text-2xl mt-5 flex gap-2 leading-normal font-semibold text-blue-500">
-          <CircleHelp size={38} strokeWidth={2} /> Are you or a loved one
+        <span className=" text-sm md:text-2xl mt-5 flex gap-2 leading-normal font-semibold text-blue-500">
+           Are you or a loved one
           suffering from the seemingly never-ending cycle of sickness, misery,
           and destruction from drugs or alcohol?
         </span>
         <p className="  w-full max-h-[calc(100vh - 350px)] overflow-auto text-left text-base">
           <br />
           <br />
-          <span className="2xl:text-xl  md:text-xl text-lg  text-gray-500">
+          <span className="lg:text-xl  md:text-xl text-sm  text-gray-500">
             NOT TO WORRY! HOPE Foundation is fully committed to providing the
             best treatment to any person with a dependence on substances or
             alcohol. We believe that alcoholism and drug addiction are diseases
@@ -31,7 +31,7 @@ export const Main = () => {
           </span>
           <br />
           <br />
-          <span className="2xl:text-xl  md:text-xl text-lg  text-gray-500">
+          <span className="lg:text-xl  md:text-xl text-sm  text-gray-500">
             The good news is addiction is not a life sentence. We at HOPE
             Foundation help people transform their lives by providing the
             highest quality de-addiction treatment and continuing care services
@@ -53,7 +53,7 @@ export const Main = () => {
             <motion.button
             onClick={call}
               whileHover={{ translateY: -10 }}
-              className="px-4 py-4 text-xl  bg-[#f09a29] rounded-md border-solid border-2 border-transparent hover:border-orange-300 transition-all text-white cursor-pointer hover:bg-transparent hover:text-orange-300"
+              className="p-2 md:p-4 text-sm md:text-xl  bg-[#f09a29] rounded-md border-solid border-2 border-transparent hover:border-orange-300 transition-all text-white cursor-pointer hover:bg-transparent hover:text-orange-300"
             >
               Make a Call
             </motion.button>

@@ -4,7 +4,7 @@ type SectionWrapperProps = {
 };
 export const SectionWrapper = ({ children }: SectionWrapperProps) => {
   return (
-    <section className="w-full px-2 md:px-12 py-6">
+    <section className="w-full  md:px-12 py-6">
 
       {children}
 
