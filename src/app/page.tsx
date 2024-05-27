@@ -25,11 +25,11 @@ export default function Home() {
       <Video />
       <Medical />
       <Pyschological />
-      <SpiritualHealing />
+        <SpiritualHealing />
       <FamilyCoun />
       <TransitionalHousing />
       <Motive />
-      {/* <Slider /> */}
+      <Slider />
       <OurCenter />
       <Addiction />
       <MotiveSlider />

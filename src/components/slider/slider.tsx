@@ -9,9 +9,11 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
+import { SectionWrapper } from "../seciton-wrapper";
 
 export function Slider() {
   return (
+    <SectionWrapper>
     <div className="overflow-hidden flex flex-row flex-wrap justify-center items-center">
       <Carousel
         opts={{
@@ -23,12 +25,12 @@ export function Slider() {
           {images.map((image, index) => (
             <CarouselItem
               key={index}
-              className="flex-shrink-0 px-4 basis-1/3 mb-10"
-              style={{ flex: "0 0 30%" }} 
+              className="flex-shrink-0 basis-96 mb-10  "
+          
             >
               <div className="p-1">
               <Card className="border-none shadow-none">
-                  <CardContent className="flex aspect-square items-center justify-center p-6">
+                  <CardContent className="flex aspect-square items-center justify-center p-6 ">
                     <Image
                       src={image.img}
                       width={900}
@@ -47,5 +49,6 @@ export function Slider() {
         <CarouselNext />
       </Carousel>
     </div>
+    </SectionWrapper>
   );
 }

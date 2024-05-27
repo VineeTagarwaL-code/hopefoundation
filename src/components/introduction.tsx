@@ -9,7 +9,7 @@ import { call } from "@/utils/call";
 export const Introduction = () => {
   return (
 
-      <div className="w-full   flex mt-12 md:mt-0 md:justify-center items-start flex-col md:h-[calc(100vh-95px)] relative overflow-hidden">
+      <div className="w-full h-full   flex mt-12 md:mt-0 md:justify-center items-start flex-col md:h-[calc(100vh-85px)] md:relative overflow-hidden">
         <div className="text-3xl md:text-6xl flex flex-col  gap-4 md:gap-6 text-gray-800 pl-2 md:pl-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

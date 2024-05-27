@@ -9,7 +9,7 @@
     {
         "image":"/assets/Drug-Addiction.png",
         "title":"DRUG ADDICTION",
-        "content":"Drug addiction or substance abuse is a state when the patient or the user loses the ability to control the intake of a substance or becomes dependent on the drug for regular functioning",
+        "content":"Drug addiction or substance abuse is a state when the patient or the user loses the ability to voluntarily control the intake of a substance or becomes physically dependent on the drug for regular functioning.",
         "button":"Know more",
         "url":"/drugaddiction"
    }, {
@@ -22,7 +22,7 @@
     {
         "image":"/assets/Schizophrenia.jpg",
         "title":"SCHIZOPHRENIA",
-        "content":"Schizophrenia is a chronic mental illness that affects nearly 1% of the world's population. It often causes episodes of distorted reality, leading to delusions and hallucinations.",
+        "content":"Schizophrenia is a serious and chronic mental illness affecting nearly 1% of the world population. Patients with schizophrenia often experience episodes of reality distortions, leading to delusions and hallucinations.",
         "button":"Know more",
         "url":"/schizophrenia"
     },
@@ -44,7 +44,7 @@
     {
         "image":"/assets/GamblingAddiction.jpg",
         "title":"GAMBLING ADDICTION",
-        "content":"Among all behavioral addictions—and addictions in general—gambling has the potential to cause the most significant financial damage in the shortest time.",
+        "content":"Of all the behavioural addictions – indeed, all addictions generally – that might afflict a person, there is little doubt that the one with the potential to cause the greatest financial damage, over the shortest time, is gambling.",
         "button":"Know more",
         "url":"/gamblingdisorder"
     },
