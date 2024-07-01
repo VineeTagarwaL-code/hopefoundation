@@ -3,19 +3,22 @@ import Image from "next/image";
 import Images from "../assets/Mother_Teresa_1.jpg";
 import { motion } from "framer-motion";
 import { CircleHelp } from "lucide-react";
-import {call} from "../utils/call";
+import { call } from "../utils/call";
 export const Main = () => {
-
   return (
-    <div className="w-screen px-6 flex flex-row h-full overflow-hidden">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1, delay: 1.0 }}
+      className="w-screen px-6 flex flex-row h-full overflow-hidden"
+    >
       <div className=" 2xl:w-[70%] w-full   flex justify-center items-center flex-col pl-1  ">
         <h1 className="text-xl font-bold md:text-4xl text-left text-[#d47f22] w-full md:font-semibold mt-10  lg:text-5xl  mb-5">
           Welcome to Durgapur Hope Foundation
         </h1>
         <span className=" text-sm md:text-2xl mt-5 flex gap-2 leading-normal font-semibold text-blue-500">
-           Are you or a loved one
-          suffering from the seemingly never-ending cycle of sickness, misery,
-          and destruction from drugs or alcohol?
+          Are you or a loved one suffering from the seemingly never-ending cycle
+          of sickness, misery, and destruction from drugs or alcohol?
         </span>
         <p className="  w-full max-h-[calc(100vh - 350px)] overflow-auto text-left text-base">
           <br />
@@ -51,7 +54,7 @@ export const Main = () => {
         <div className="pt-10 w-full flex justify-start">
           <motion.div>
             <motion.button
-            onClick={call}
+              onClick={call}
               whileHover={{ translateY: -10 }}
               className="p-2 md:p-4 text-sm md:text-xl  bg-[#f09a29] rounded-md border-solid border-2 border-transparent hover:border-orange-300 transition-all text-white cursor-pointer hover:bg-transparent hover:text-orange-300"
             >
@@ -68,7 +71,6 @@ export const Main = () => {
           className="rounded-lg w-[400px] h-[550px] mb-5"
         />
       </div>
-    </div>
+    </motion.div>
   );
 };
-
